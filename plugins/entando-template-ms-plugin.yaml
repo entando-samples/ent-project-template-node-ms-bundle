@@ -1,0 +1,7 @@
+image: germanogiudici/node-kc-microservice:0.0.1-SNAPSHOT
+dbms: none
+ingressPath: "/entando-template-node-api"
+healthCheckPath: "/actuator/health"
+roles:
+  - "et-first-role"
+  - "et-second-role"
